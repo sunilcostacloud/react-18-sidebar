@@ -1,5 +1,5 @@
 .SidebarParent {
-  background: #000;
+  background: #15202b;
   width: 200px;
   box-sizing: border-box;
   padding: 0px 20px;
@@ -14,8 +14,8 @@
 }
 
 .SidebarItem.active {
-  background: #333;
-  border-radius: 5px;
+  background: #0d99ff;
+  border-radius: 20px;
   color: #fff;
   font-size: 15px;
   font-weight: 600;
