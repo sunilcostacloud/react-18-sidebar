@@ -1,17 +1,23 @@
 import { Outlet } from "react-router-dom"
 import SideMenu from "./sidebar/SideMenu"
+import Header from "./header/Header"
 
 
 const Layout = () => {
     return (
-        <div style={{ display: "flex" }} >
+        <>
             <div>
-                <SideMenu />
+                <Header />
             </div>
-            <main>
-                <Outlet />
-            </main>
-        </div>
+            <div style={{ display: "flex" }} >
+                <div>
+                    <SideMenu />
+                </div>
+                <main>
+                    <Outlet />
+                </main>
+            </div>
+        </>
     )
 }
 
