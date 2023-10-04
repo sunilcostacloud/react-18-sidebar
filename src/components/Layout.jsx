@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom"
-import SideMenu from "./SideMenu"
+import SideMenu from "./sidebar/SideMenu"
+
 
 const Layout = () => {
     return (
