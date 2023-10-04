@@ -6,8 +6,9 @@ const Header = () => {
             <div className={styles.heading}>
                 Dashboard
             </div>
-            <div>
-
+            <div className={styles.navlinks} >
+                <div>About</div>
+                <div>Terms & Conditions</div>
             </div>
         </div>
     )
